@@ -1,0 +1,1456 @@
+    /*Changes made on 19-04-2023-START*/
+    html {
+        font-size: 10px;
+        -ms-text-size-adjust: none;
+        -webkit-text-size-adjust: none;
+    }
+
+    body {
+        /* font-size: 62.5%; */
+        font-size: 14px;
+    }
+
+    b,
+    strong {
+        font-weight: 700;
+    }
+
+    .bankerPrgmBox h1,
+    .midCont h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .h3,
+    h3 {
+        font-size: 2.4rem;
+    }
+
+    .h4,
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    .h5,
+    h5 {
+        font-size: 1.4rem;
+    }
+
+    .h6,
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    .chartArea .calInt span,
+    .calculateArea .input-group input[type=text],
+    .calculateArea .input-group select,
+    .calcBtn a {
+        font-size: 1.6rem;
+    }
+
+    .chartArea .calInt span.totalAmt1,
+    .chartArea .calInt span#TotalPayable,
+    .chartArea .calInt span.totalpay {
+        font-size: 2.2rem;
+    }
+
+    .savings_desktop_section p em {
+        font-size: 1.8rem;
+    }
+
+    .middleFooterCon.midTitle .ftrHeading {
+        position: relative;
+    }
+
+    .maroontheme .topBand .navbar-nav.navbar-left,
+    .topBand .navbar-right {
+        flex-direction: row;
+    }
+
+    .topBand .row .col-xs-12 {
+        display: flex;
+        justify-content: space-between;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* .maroontheme .topMenu.nriHeader .navbarSect {
+    margin-left: 2.8rem;
+} */
+
+    .maroontheme .topMenu .loginSect {
+        padding: 2rem 0 1.7rem;
+    }
+
+    .middleFooterCon li.col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .topMenu .loginDrpDown .megaLoginHeading {
+        font-size: 1.4rem;
+        color: #212121;
+        padding: 0;
+        padding: 1rem 2rem;
+        font-family: Lato-Bold;
+        border-bottom: 1px dotted #efefef;
+        text-transform: none;
+        cursor: pointer;
+    }
+
+    .topMenu .loginDrpDown .megaLoginHeading:before {
+        content: "\e9003";
+        display: inline-block;
+        font-family: regional_icomoon !important;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #858585;
+        position: absolute;
+        right: 1.5rem;
+    }
+
+    .topBand .navbar-left li {
+        padding: 0 0.8rem 0 0 !important;
+    }
+
+    .topbandBg_New .bandtextArea .axisbandText p,
+    .digitalBank p,
+    .mobLnk .viewAllNLess a,
+    .paraGreen p {
+        font-size: 1.4rem;
+    }
+
+    .col-xs-offset-1 {
+        margin-left: 8.33333333%;
+    }
+
+    .breadcrumSect {
+        padding: 1rem 0;
+        display: block !important;
+    }
+
+    .container .backArw {
+        /* display: inline-block; */
+        padding-top: 1rem;
+    }
+
+    .iconSectHindi .navbar-nav .topS a {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .hindiSup .navbar-nav {
+        flex-direction: row;
+    }
+
+    /* .regional h3 {
+    font-size: 2.4rem;
+} */
+    .accessibility .bannerWrapper .btnBlock a.linkBtn {
+        margin-top: 1rem !important;
+    }
+
+    .accessibility .compareSect .loanDesigned .loanBox h3 {
+        min-height: auto !important;
+    }
+
+    .topBand .nav a:hover {
+        text-decoration: none;
+    }
+
+    .footerMainUl .socialBoxWrap #connectLbl {
+        padding-bottom: 1rem;
+    }
+
+    .tax-assist-tabs .nav-tabs li a {
+        width: 100%;
+    }
+
+    .panel-group .panel+.panel {
+        margin-top: 5px;
+    }
+
+    .tax-assist-content .panel {
+        border: 1px solid #ddd;
+    }
+
+    .bannerWrapperMain .bannerItem .bannerSec img {
+        height: auto !important;
+    }
+
+    .footerMainUl li:first-child,
+    .footerMainUl .col {
+        padding-right: 0;
+    }
+
+    .reg-fb-footer:before {
+        content: "\e937";
+        color: #818181;
+    }
+
+    .reg-insta-footer:before {
+        content: "\e938";
+        color: #818181
+    }
+
+    .reg-Li-footer:before {
+        content: "\e939";
+        color: #818181
+    }
+
+    .reg-Twitter-footer:before {
+        content: "\e942";
+        color: #818181
+    }
+
+    .reg-YT-footer:before {
+        content: "\e943";
+        color: #818181
+    }
+
+    .reportFraudFtr {
+        display: block;
+        margin: 2rem 0 1rem;
+        color: #323232;
+        padding: 1rem;
+        width: 20rem;
+        background: #595959;
+        box-shadow: 0 0 8px #a9a3a3;
+        border-radius: 0.5rem;
+    }
+
+    .reportFraudFtr .fraudIcon {
+        background: url(../images/home-sprite.png) no-repeat -292px -66px;
+        width: 2.2rem;
+        height: 2.5rem;
+        display: inline-block;
+        margin-right: 1rem;
+        vertical-align: top;
+    }
+
+    .reportFraudFtr a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.6rem;
+        padding-left: 0.5rem;
+    }
+
+    .bannerText .sms {
+        padding-top: 0 !important;
+    }
+
+    .visible-lg,
+    .visible-md,
+    .visible-sm,
+    .visible-xs {
+        display: none !important;
+    }
+
+    /* .panel-body {
+    padding: 0;
+} */
+
+    .fade.in {
+        opacity: 1
+    }
+
+    .collapse.in {
+        display: block;
+    }
+
+    .faqsBox .panel-default .panel-heading h5 {
+        font-size: 1.6rem;
+    }
+
+    /* .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+} */
+
+    .input-group .form-control,
+    .input-group-addon,
+    .input-group-btn {
+        display: table-cell;
+    }
+
+    .panel-heading {
+        padding: 10px 15px;
+        border-bottom: 1px solid transparent;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .panel-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+
+    .accessibility .grabDetails .grabFaqNew h5 a:hover {
+        text-decoration: underline;
+    }
+
+    .modal-header {
+        display: block;
+    }
+
+    .modal-content {
+        -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+        box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    }
+
+    .bannerwrap .coloumn {
+        width: 100%
+    }
+
+    .coloumn .bannerbuttons .registered {
+        font-size: 13px;
+        padding: 3px 16px;
+        margin-top: -3px;
+    }
+
+    .bankingWrap .col-12 {
+        position: static;
+    }
+
+    /* footer {
+    margin: 0 0 14rem 0;
+} */
+    .notify .fa:after {
+        display: none;
+    }
+
+    .hdMenuSect h3 {
+        font-family: 'Lato-Regular';
+    }
+
+    /* .mobileMenu .hdMenuSect {
+        margin-top: 6rem;
+    } */
+
+    .topMenu .loginDrpDown .accordian ul li h3 {
+        display: inline-block;
+        color: #212121;
+        font-size: 1.4rem;
+        text-transform: none;
+        font-family: 'Lato-Regular';
+    }
+
+    /* .topMenu.buisHeadear .navbarSect ul{
+    display: flex;
+} */
+
+    /* .overview {
+    padding: 0.5rem 0 4rem 0 !important;
+} */
+
+    .overview .heading-1 {
+        margin-bottom: 0.3rem !important;
+    }
+
+    #relatedproduct-slider .owl-nav button.owl-next span,
+    #relatedproduct-slider .owl-nav button.owl-prev span {
+        display: none;
+    }
+
+    .topBand .navbar-nav a.hdIconLink.notification span.notyCount {
+        right: 0.3rem;
+    }
+
+    .maroontheme .topMenu .whitebg .loginSectMob .navbar-right {
+        padding-right: 0;
+    }
+    .shortcont .font-bold-italic{
+        font-style: italic;
+    }
+    .js-explore .font-bold-italic, .exploreProd .font-bold-italic, .mLnk .font-bold-italic, .banner-title .font-bold-italic{
+        font-style: italic;
+        color: #861f41;
+        font-family: Lato-Bold;
+    }
+
+    /* Testing Start */
+
+    .topMenu .navbarSect ul li .subMenus .mainSect .tLevel .submenus {
+        position: absolute;
+        left: 99.5%;
+        background-color: #ffffff;
+        top: -1.2px;
+        width: 30rem;
+        height: 100.5%;
+        border-top: 2px solid #e0e0e0;
+        border-left: 1px solid #f2f2f2;
+        padding-left: 2.5rem;
+    }
+
+    .topMenu.nriHeader .navbarSect ul li a {
+        padding: 2.9rem 1.4rem 2.1rem;
+    }
+
+    /* .topMenu .navbarSect ul li a {
+    font-size: 1.4rem;
+} */
+
+    .maroontheme .topMenu .whitebg {
+        background-position: 0 0;
+    }
+
+    .abRatesLeft {
+        padding: 0;
+    }
+
+    .topMenuNewWrapper .menuBody li {
+        padding: 1rem 0 0 !important;
+        float: left;
+    }
+
+    .topMenuNewWrapper .axisGropuGrid,
+    .topMenuNewWrapper .locateUsGrid {
+        max-width: 75rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .locateUsGrid ul {
+        float: left
+    }
+/* 
+    .mobileMenu .logoSect {
+        text-align: center;
+        padding: 0rem 0 0rem;
+    } */
+
+    /* .mobileMenu .logoSect img {
+        display: none;
+    } */
+
+    .mobileMenu .MobileLogo {
+        text-align: center;
+        padding: 0.1rem 0px 1.2rem;
+    }
+
+    .mobileMenu .MobileLogo img {
+        width: 95px;
+    }
+
+    .loanDescription .blockWrap .col-md-4 {
+        float: left
+    }
+
+    .accessibility .abFoundationWrap {
+        height: auto;
+    }
+
+    .custom-mb {
+        margin-bottom: 6rem;
+    }
+
+    .custom-mt {
+        margin-top: 6rem;
+    }
+
+    .investerWrapper .buttonWrap {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .apptrackerFacility ul,
+    .apptrackerFacility .r3 {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+
+    .accessibility .tabContent .content h1 strong {
+        font-size: 2.6rem;
+    }
+
+    .accessibility .tabContent .content p strong {
+        font-size: 1.4rem;
+    }
+
+    .progressUsBanner h2 {
+        font-size: 3.6rem !important;
+    }
+
+    .articleDetail a.linkBtn.grey {
+        margin-top: 0;
+    }
+
+    .totalBox.finalResult {
+        margin: 15px 0 0 !important;
+    }
+
+    .progressUsSlider ul li.col-md-6 {
+        float: none !important;
+    }
+
+    .grabTabContent .topSearchBox {
+        padding: 0;
+    }
+
+    .grabTabContent .tabContent .tableWrapper .tblData {
+        margin-top: 2rem;
+    }
+
+    /* .axnri-tab-wrap .tab-content>.tab-pane .col,
+    .axnri-tab-wrap .tab-content>.pis-tab .col {
+        /* height: auto !important; 
+         width: inherit !important;
+        margin: 1.5rem 0 !important; 
+    } */
+
+    .axnri-tab-wrap .tab-content>.tab-pane .col,
+    .axnri-tab-wrap .tab-content .pis-tab .col {
+        flex-basis: initial;
+        flex-grow: initial;
+    }
+
+    .accessibility .easyGuide-carousel .copy-div p {
+        min-height: auto !important;
+    }
+
+    .mgcrd-nav .navselect::after {
+        top: 1.5rem !important;
+    }
+
+    .updatedwrapper .container>div>.sfContentBlock {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .updatedwrapper .row>div>div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .updatecontent {
+        margin-top: 0;
+        margin-bottom: 10px;
+        max-width: 100%;
+        padding: 0
+    }
+
+    .updatedwrapper .row>div>div .sfContentBlock {
+        max-width: 22%;
+    }
+
+    .hygnav {
+        margin-top: -3px;
+        float: left;
+    }
+
+    .footer {
+        padding: 28px 0;
+        background-color: #ccc;
+        width: 100%;
+    }
+
+    .calculatorWrapper .currentAcoountOption {
+        max-width: 950px;
+        margin: 0 auto;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .calcSection .loanCalc {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        border: solid 1px #d5d5d5;
+        /* padding: 0 20px 0 0; */
+
+    }
+
+    .finSec .prdServ {
+        margin: 10px 0 0px;
+        padding: 15px 0;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .footerMainUl .socialBoxWrap #connectLbl {
+        padding-bottom: 0;
+    }
+
+    .about_bod_mrb {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .instaCalc .taxBnt {
+        width: 100%;
+    }
+
+    .totalBox {
+        /* margin: 0 !important; */
+        height: 88%;
+    }
+
+    .calcSection .loanCalc1 {
+
+        padding: 20px 20px 20px 0;
+    }
+
+    .houseHoldIncome .calculatorSlider .inputBox input {
+        border-top: 0;
+        border-right: 0;
+    }
+
+    .progressUs .progUsSldrTopscr {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+	width:100%;
+    }
+
+    .service .listwrap .list-content .item-link,
+    .service .listwrap .list-content {
+        font-size: 1.6rem;
+    }
+
+    .sip-sec .totalBox {
+        margin: 0 !important;
+        height: 100%;
+    }
+
+    .legacy-wrap-1 {
+        flex-direction: column;
+    }
+
+    .semiChart {
+        margin-top: 20px !important;
+    }
+
+    .totalBox.finalResult {
+        height: auto;
+    }
+
+    .emi_slider .emi_slider_widget {
+        margin-right: 0;
+    }
+
+    .emi_slider .emi_slider_widget1 {
+        margin: 0;
+    }
+
+    .homeCalwrapper .bgColorGraph {
+        height: 50%;
+    }
+
+    .clssText h2,
+    .clssText h1 {
+        font-family: 'FuturaBT-Medium';
+        color: #595959;
+        padding: 11px 0;
+        font-size: 18px;
+    }
+
+    .clssBox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* .calculatorSlider .inpt-statement span {
+        padding-bottom: 1rem !important;
+    } */
+    .calculatorSlider .inpt-statement .clssErrorMsg,
+    .calculatorSlider .inpt-statement span {
+        padding-bottom: 1.6rem;
+    }
+
+
+    .subhAramInput {
+        margin: 4rem auto;
+    }
+
+    .houseHoldIncome .calculatorSlider .inpt-slider {
+        padding-right: 4.8rem;
+    }
+
+
+
+    .clssOutputCont .clssApplyNow .recalCulate {
+        font-size: 1.6rem;
+    }
+
+    .calculatorSlider {
+        margin: 2.4rem auto 0;
+    }
+
+    .easyGuide-carousel .copy-div p,
+    .basicList li,
+    .axnri-info p,
+    .axnri-artclCont .artclCont-body p {
+        font-size: 1.5rem !important;
+    }
+
+    .banner-guide p {
+        font-size: 1.8rem !important;
+    }
+
+    .banner-products .copy p {
+        font-size: 2rem !important;
+    }
+
+    .mainIntroductionText h1 {
+        padding: 3rem 0 2rem !important;
+        font-family: Lato-Light !important;
+        /* font-size: 2rem; */
+    }
+
+    .clssText {
+        padding-top: 3.2rem;
+    }
+
+    .radioBtn input:checked+.clsslabel,
+    .radioBtn input:not(:checked)+.clsslabel {
+        margin: 0 50px;
+    }
+
+    .accessibility .calcSection .clssFdNote {
+        font-size: 1.5rem !important;
+    }
+
+    .read-moreText {
+        font-size: 1.4rem;
+    }
+
+    .faqSect .panel-default {
+        background-color: #fff;
+    }
+
+    .savings_desktop_section h5 {
+        font-size: 1.6rem;
+    }
+
+    .choose-account .nav-fill .nav-item,
+    .choose-account .nav-fill>.nav-link {
+        text-align: left;
+    }
+
+    .input-group-addon {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        color: #555;
+        text-align: center;
+        border: 1px solid #ccc;
+        width: 1%;
+        white-space: nowrap;
+        vertical-align: middle;
+    }
+
+    .input-group-addon:first-child {
+        border-right: 0;
+    }
+
+    .calculateArea .calcBtn a {
+        color: #ffffff;
+    }
+
+    .ab_stayHomeImg {
+        height: 117px;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    .homeWealthWrap {
+        height: 137px !important;
+    }
+
+    .mainIntroductionText1 h1 {
+        font-size: 2.6rem;
+    }
+
+    /* .sendMoneyIndia h1 {
+        font-size: 2.6rem;
+    } */
+
+    .stickybandCont .stickyband p {
+        width: 100%;
+    }
+
+    .acclistdata.acc-list-open {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    div[data-placeholder-label="accdescwrapper row"],
+    div[data-placeholder-label="accountsheadwrap row"] {
+        width: 100%;
+    }
+
+    .productDealsPopup .btn-default {
+        color: #333;
+        background-color: #fff;
+        border-color: #ccc;
+    }
+
+    .productDealsPopup .btn {
+        font-size: 1.4rem;
+    }
+
+    .intr_article .intrested_in,
+    .intr_article .effects {
+        width: 100%;
+    }
+
+    .intr_article .effects {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .col-xs-4 {
+        width: 33.33333333%;
+    }
+
+    .col-xs-8 {
+        width: 66.66666667%;
+    }
+
+    .close {
+        font-size: 2.1rem;
+    }
+
+    /* .modal-header,
+    .modal-body {
+        padding: 1.5rem;
+    } */
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+    }
+
+    .mobAppLayout .loanDesigned ul li .loanBox {
+        min-height: 0 !important;
+    }
+
+    .progress_main p+strong,
+    .progress_main ol li {
+        font-size: 1.6rem;
+    }
+
+    .axnri-tab-wrap .tab-content>.tab-pane .btn-wrap,
+    .axnri-tab-wrap .tab-content .col+p {
+        width: 100%;
+    }
+
+    .faqsBox .panel-default .panel-collapse .panel-body {
+        padding: 15px 15px 8px 0;
+    }
+
+    .product-cta .btn-default:first-child {
+        margin-right: 1.5rem;
+    }
+
+    .banner-tcApply {
+        position: absolute;
+        left: 1rem;
+        z-index: 2;
+        bottom: 1rem;
+        font-weight: 600;
+    }
+
+    .mainIntroductionText .vcip-intro-text h1 {
+        font-size: 28px;
+        font-family: 'Lato-Bold' !important;
+        padding: 0;
+    }
+
+    .sf_colsIn.wrapper-content.axisWrap.sendMoneyIndia {
+        padding-bottom: 0;
+    }
+
+    .mega_menu_overlay .mob-acctype-tab {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .loansListWrapper ul li a {
+        padding: 0.2rem 0.5rem;
+    }
+
+    .loanDescription .table td,
+    .loanDescription .table th {
+        font-size: 1.4rem;
+    }
+
+    .mainIntroductionText .padBottom0 {
+        padding-bottom: 0 !important;
+    }
+
+    .compareSect .loanDesigned .loanBox {
+        min-height: 25rem;
+    }
+
+    .modal.in .modal-dialog {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .modal-backdrop.in {
+        opacity: .5;
+    }
+
+    .modal-header .close {
+        padding: 0;
+        margin: 0;
+    }
+
+    .savings_desktop_section .tabcontent-container .tabcontent_pr {
+        width: 100%;
+    }
+
+    /* .text-bold.text-block {
+        font-size: 3.2rem !important;
+    } */
+
+    .usefulFaq .infowrapper .panel-body {
+        padding-top: 1.5rem !important;
+        padding-right: 42.5rem;
+    }
+
+    .mobTableCell select {
+        -webkit-appearance: auto !important;
+        -moz-appearance: auto !important;
+        appearance: auto !important;
+    }
+
+    .mobTableCell select.selDrop {
+        padding: 2px 10px 2px 2px !important;
+        margin-right: 1rem;
+    }
+    .padBottom0 .account-form-text{
+        font-family: 'Lato-Light';
+    }
+    .mobileMenu .tabSect {
+        display: flex;
+        justify-content: space-between;
+    }
+    .featureBox.innerCont.welcomeCredit{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tabSect .mob-corporate.active{
+        background: #97144d;
+    }
+
+    .rightPart.bottom {	
+        position: absolute;	
+        bottom: 210px;	
+    }
+
+    /* Testing End */
+
+    @media only screen and (max-width: 1366px) {
+        .accessibility .easyGuide-carousel .owl-item .item {
+            min-height: auto !important;
+        }
+    }
+
+    @media only screen and (max-width:1199px) {
+
+        .mobileMenu .tabSect a {
+            width: 31.8%;
+        }
+
+        .maroontheme .topMenu .whitebg {
+            display: flex !important;
+            justify-content: flex-end;
+        }
+
+        .accessibility .tabContent .content h4 {
+            font-size: 1.4rem;
+        }
+
+        .accordionTbl>tbody>tr.tblHeading td:first-child:before,
+        .accordionTbl>tbody>tr.tblHeading th:first-child:before {
+            right: 120px;
+        }
+
+        .accessibility .axnri-tab-wrap .tab-content>.tab-pane .col {
+            min-height: auto !important;
+        }
+
+        .homeLoanCal .btnBlock {
+            padding: 3.5rem 0 5.5rem;
+            margin: 0;
+        }
+    }
+
+    @media (min-width: 1200px) {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            max-width: 1170px;
+        }
+
+        .loanDesigned ul li.liHover:hover,
+        .loanDesigned ul li.maxActive {
+            border-color: #eceaeb;
+            border-radius: 0.5rem;
+            background: #f6f6f6;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .tabHeading {
+            font-size: 2.5rem !important;
+        }
+
+        .tabHeading.disc {
+            font-size: 2rem !important;
+        }
+
+        .subhAramInput .inpt-slider {
+            width: 30%;
+            margin-right: 10px;
+        }
+
+        .mainIntroductionText h1 {
+            font-size: 2.2rem !important;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .grabCards {
+            margin-top: 0;
+        }
+
+        .infoTabWrap .pressRleaseBox .stockInnerTab li.current a,
+        .infoTabWrap .pressRleaseBox ul.innerTab li.current a {
+            color: #ffffff;
+        }
+
+        .accessibility .easyGuide-carousel .copy-div p {
+            min-height: auto !important;
+        }
+
+        .life-insBg {
+            padding: 0.1rem 1.5rem;
+        }
+
+        .lifeCalc {
+            width: 100%;
+        }
+
+        .quickPayCal .totalInst {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .rd-calc .loanCalc.fdCalc {
+            width: 100%;
+        }
+
+        .bannerBelowWrap .boxImg img {
+            width: 60%;
+            margin: 2rem 0;
+        }
+
+        .bannerBelowWrap h3 {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        .calculatorBox {
+            width: 100%;
+        }
+
+        .totalBox {
+            width: 100% !important;
+            height: auto;
+            margin: 10px 0 0px 0px !important;
+        }
+
+        ul.navbar-nav {
+            margin: 7.5px -15px;
+        }
+
+        .middleFooterCon h3 {
+            width: 100%;
+            position: relative;
+        }
+
+        .totalBox.finalResult {
+            /* margin: 15px 0 0 15px !important; */
+            margin: 15px 0 0 0 !important;
+        }
+
+        .totalBox1 {
+            margin-top: 2rem !important;
+        }
+
+        .fd-bannerTxt h2 {
+            font-size: 22px !important;
+        }
+
+        .ab_voiceBanking .fd-bannerTxt h2 {
+            font-size: 1.5rem !important;
+        }
+
+        .faqsBox .panel-default .panel-heading h5 {
+            font-size: 1.4rem;
+        }
+
+        .accessibility .mainIntroductionText {
+            padding: 0 !important;
+        }
+
+        .accessibility .grabBannerBox .owl-carousel .owl-item .bannerSec:first-child img {
+            width: 100% !important;
+        }
+
+        /* .homeWealthWrap {
+        height: 137px;
+        margin-bottom: 135px;
+    } */
+
+        .visible-xs {
+            display: block !important;
+        }
+
+        .hidden-xs {
+
+            display: none !important;
+
+        }
+
+        .bannerText.fastForBanner .bannerTitle.hidden-xs {
+            display: block !important;
+        }
+
+        .footerMainUl .openTab:before,
+        .middleFooterCon .openTab:before {
+            right: 2rem;
+        }
+
+        .footerMainUl .closeTab:before,
+        .middleFooterCon .closeTab:before {
+            content: " \e9003";
+            display: inline-block;
+            font-family: regional_icomoon !important;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #fff;
+            position: absolute;
+            right: 2rem;
+        }
+
+        img.hidden-lg {
+            display: block;
+        }
+
+        img.hidden-xs {
+            display: none;
+        }
+
+        .footerMainUl .col {
+            padding-right: 0;
+        }
+
+        .tradeFinanceOverview .tabWrap .owl-item {
+            padding-bottom: 0;
+        }
+
+        .custom-mb {
+            margin-bottom: 2.4rem;
+        }
+
+        .custom-mt {
+            margin-top: 2.4rem;
+        }
+
+        /* .footerBtmSec {
+
+            margin-bottom: 4rem;
+
+        } */
+
+        .loanCalc,
+        .lifeCalc {
+            display: block;
+        }
+
+
+
+        .accordionTbl>tbody>tr.tblHeading td:first-child:before,
+        .accordionTbl>tbody>tr.tblHeading th:first-child:before {
+            right: 42px;
+        }
+
+
+
+        .accessibility .loanHeading {
+            font-size: 2.2rem;
+        }
+
+        .regional .col ul.socialLinks li {
+            margin: 0;
+            border-bottom: none;
+            padding: 0;
+            margin-right: 0.5rem;
+        }
+
+        .calcSection .loanCalc1 {
+            padding: 0;
+            margin-top: 1rem;
+        }
+
+        .ab_trending .topSearchBox.rightPart {
+            position: static !important;
+        }
+
+        .clssMobileText .applNowText {
+            position: static;
+            float: right;
+            background-position: 82px 18px;
+        }
+
+        .houseHoldIncome .calculatorSlider .inpt-slider {
+            margin: 1.6rem auto;
+        }
+
+        .clssOutputCont .clssApplyNow .recalCulate {
+            font-size: 1.6rem;
+        }
+
+        .calculatorSlider {
+            margin: 2.4rem auto 0;
+        }
+
+        .easyGuide-carousel .copy-div p {
+            font-size: 1.3rem !important;
+        }
+
+        .subhAramInput .inpt-slider {
+            width: 100%;
+            margin-right: 0;
+        }
+
+        .radioBtn input:checked+.clsslabel,
+        .radioBtn input:not(:checked)+.clsslabel {
+            margin: 0;
+        }
+
+        .accessibility .loanDescription {
+            padding-top: 0 !important;
+        }
+
+        .acclist,
+        .mobacctype {
+            margin: 0;
+        }
+
+        .mobacc-list-open {
+            width: 100%;
+            margin: 0;
+        }
+
+        .contactUs .bannerText h2 {
+            font-size: 2rem !important;
+        }
+
+        .accessibility .applyText .applyContent {
+            width: 100% !important;
+        }
+
+        .savingAccBox .row {
+            margin: 0;
+        }
+
+        .axnri-info p,
+        .axnri-tab-wrap .tab-content>.tab-pane .col p,
+        .axnri-tab-wrap .tab-content>.pis-tab .col p {
+            font-size: 1.3rem !important;
+
+        }
+
+        .banner-products .copy p {
+            font-size: 1.2rem !important;
+        }
+
+
+    }
+
+
+    @media (min-width: 768px) {
+        /* img.hidden-lg {
+            display: none;
+        }
+
+        img.hidden-xs {
+            display: block;
+            height: auto !important;
+        } */
+
+        .modal-content {
+            -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        }
+    }
+
+    @media (min-width: 992px) {
+
+        .col-md-offset-1 {
+            margin-left: 8.33333333%;
+        }
+
+        .accordionTbl>tbody>tr.tblHeading td:first-child:before,
+        .accordionTbl>tbody>tr.tblHeading th:first-child:before {
+            right: 62px;
+        }
+
+    }
+
+    @media only screen and (max-width: 576px) {
+        .medCenterBlock .imgListBlock .row {
+            margin: 0
+        }
+
+        .mangSLider .bodBlock .row {
+            display: block;
+        }
+
+        .accordionTbl>tbody>tr.tblHeading td:first-child:before,
+        .accordionTbl>tbody>tr.tblHeading th:first-child:before {
+            display: none;
+        }
+
+        .pr_toggle {
+            position: absolute;
+            right: 2rem;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .breadcrumSect ul li:before {
+            left: -0.2rem;
+        }
+
+        .bannerBelowWrap .boxImg img {
+            width: 80%;
+        }
+
+        .mainIntroductionText1 h1 {
+            font-size: 2rem;
+        }
+
+        .sendMoneyIndia h1 {
+            font-size: 2rem;
+        }
+
+        .bannerWrapper .bannerText {
+            background: rgba(0, 0, 0, .4) !important;
+        }
+
+        .accessibility .bannerWrapper .bannerText.fastForBanner {
+            background: rgba(0, 0, 0, .4) !important;
+        }
+
+
+    }
+
+    @media (max-width: 420px) {
+        .product-cta .btn-default:first-child {
+            margin-right: 0;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    @media (min-width:480px) and (max-width:991px) {
+        .innerheadWrap .innerlogoWrap {
+            width: 25%;
+        }
+
+        .innerheadWrap .innernavWrap {
+            width: 75%;
+        }
+    }
+
+    @media (min-width:768px) and (max-width:991px) {
+
+        .hidden-sm {
+
+            display: none !important
+        }
+
+
+
+    }
+
+
+    @media (min-width:992px) and (max-width:1199px) {
+
+        .hidden-md {
+
+            display: none !important
+        }
+
+    }
+
+    @media (min-width:1200px) {
+
+        .hidden-lg {
+
+            display: none !important
+        }
+
+        .icon-whatsapp {
+            display: inline-block !important;
+        }
+
+    }
+ #BlogPagination {
+    margin-top: 3rem;
+}
